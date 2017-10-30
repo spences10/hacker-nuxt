@@ -23,21 +23,22 @@ module.exports = {
   css: [
     'tachyons/css/tachyons.min.css',
     'tachyons-debug/css/tachyons-debug.min.css'
-  ]
-  // uncomment for ESLint
-  // build: {
-  //   /*
-  //   ** Run ESLint on save
-  //   */
-  //   extend (config, ctx) {
-  //     if (ctx.dev && ctx.isClient) {
-  //       config.module.rules.push({
-  //         enforce: 'pre',
-  //         test: /\.(js|vue)$/,
-  //         loader: 'eslint-loader',
-  //         exclude: /(node_modules)/
-  //       })
-  //     }
-  //   }
-  // }
+  ],
+  build: {
+    /*
+    ** Run ESLint on save
+    ** uncomment for ESLint
+    */
+    // extend (config, ctx) {
+    //   if (ctx.dev && ctx.isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       exclude: /(node_modules)/
+    //     })
+    //   }
+    // }
+    vendor: ['axios']
+  }
 }
