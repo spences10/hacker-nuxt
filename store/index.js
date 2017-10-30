@@ -1,4 +1,4 @@
-import axios from "~/plugins/axios"
+import axios from '~/plugins/axios'
 
 export const state = () => ({
   ids: [],
@@ -6,18 +6,18 @@ export const state = () => ({
 })
 
 export const mutations = {
-  setIds(state, ids) {
+  setIds (state, ids) {
     state.ids = ids
   },
 
-  setItems(state, items) {
+  setItems (state, items) {
     state.items = items
   }
 }
 
 export const actions = {
-  async nuxtServerInit({ commit }) {
-    const response = await axios.get("topstories.json")
+  async nuxtServerInit ({ commit }) {
+    const response = await axios.get('topstories.json')
     const ids = response.data
     const tenIds = ids.slice(0, 10)
 
@@ -25,7 +25,7 @@ export const actions = {
     const itemsResponses = await Promise.all(itemsPromises)
     const items = itemsResponses.map(res => res.data)
 
-    // commit("setIds", ids)
-    commit("setItems", items)
+    // commit('setIds', ids)
+    commit('setItems', items)
   }
 }
