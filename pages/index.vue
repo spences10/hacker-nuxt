@@ -1,23 +1,18 @@
 <template>
-  <div class="f1 code">
-    Hello World!
-    <ul>
-      <li v-for="user in users" :key="user.id">
-        {{user.login}}
+  <div class="code">
+    <ul class="list pa2">
+      <li v-for="item in items" :key="item.id">
+        {{item.title}}
       </li>
     </ul>
   </div>
 </template>
 <script>
-  import axios from '~/plugins/axios'
-
-  export default {
-    asyncData(){
-      return axios.get('users')
-        .then(res => ({
-          users: res.data
-        }))
-    }
-  }
+import { mapState } from "vuex"
+export default {
+  computed: mapState([
+    "ids",
+    "items"
+  ])
+}
 </script>
-
