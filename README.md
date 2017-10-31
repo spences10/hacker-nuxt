@@ -1,5 +1,9 @@
 # hackernuxt
 
+## a simple Hackernews clone made with Nuxt
+
+This covers
+
 > Nuxt.js project
 
 ## Build Setup
