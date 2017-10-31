@@ -12,15 +12,15 @@
           </template>
         </div>
         <div class="details">
-          <nuxt-link :to="'/user/' + item.by">{{item.by}}</nuxt-link>
-          by {{item.by}}
+          by <nuxt-link :to="'/user/' + item.by">{{item.by}}</nuxt-link>
           <p class="ma0 i f7">{{item.time | timeSince}} ago</p>
         </div>
-        <div v-if='item.decendants'>
+        <!-- <template v-if='item.decendants'> -->
+        <template>
           <div class="comments">
-            {{item.descendants}} comments
+            <nuxt-link :to="'/item/' + item.id">{{item.descendants}} comments</nuxt-link>
           </div>
-        </div>
+        </template>
       </li>
     </ul>
   </div>
