@@ -17,7 +17,8 @@
     "date-fns": "1.29.0",
     "nuxt": "^1.0.0-rc11",
     "tachyons": "4.9.0",
-    "tachyons-debug": "1.1.10"
+    "tachyons-debug": "1.1.10",
+    "url": "0.11.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
