@@ -12,6 +12,7 @@
           </template>
         </div>
         <div class="details">
+          <nuxt-link :to="'/user/' + item.by">{{item.by}}</nuxt-link>
           by {{item.by}}
           <p class="ma0 i f7">{{item.time | timeSince}} ago</p>
         </div>
