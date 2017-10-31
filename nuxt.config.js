@@ -41,5 +41,6 @@ module.exports = {
     //   }
     // }
     vendor: ['axios']
-  }
+  },
+  plugins: ['~/plugins/filters']
 }
