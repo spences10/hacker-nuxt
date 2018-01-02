@@ -1,5 +1,7 @@
 # hackernuxt
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spences10/hacker-nuxt.svg?token=a6eb137ff2cdd1143a819d3569cf2a2769e9679ba3f3283420e43e6b11834b85&ts=1514886092985)](https://greenkeeper.io/)
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/spences10/hacker-nuxt.svg)](https://greenkeeper.io/)
 
 ## a simple Hackernews clone made with Nuxt
