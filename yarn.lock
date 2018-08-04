@@ -348,7 +348,7 @@ babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.6"
 
-babel-eslint@^8.0.1:
+babel-eslint@8.2.6:
   version "8.2.6"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.6.tgz#6270d0c73205628067c0f7ae1693a9e797acefd9"
   dependencies:
@@ -1918,7 +1918,7 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-standard@^10.2.1:
+eslint-config-standard@10.2.1:
   version "10.2.1"
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-10.2.1.tgz#c061e4d066f379dc17cd562c64e819b4dd454591"
 
@@ -1929,7 +1929,7 @@ eslint-import-resolver-node@^0.3.1:
     debug "^2.6.8"
     resolve "^1.2.0"
 
-eslint-loader@^1.9.0:
+eslint-loader@1.9.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/eslint-loader/-/eslint-loader-1.9.0.tgz#7e1be9feddca328d3dcfaef1ad49d5beffe83a13"
   dependencies:
@@ -1946,13 +1946,13 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-html@^4.0.0:
+eslint-plugin-html@4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/eslint-plugin-html/-/eslint-plugin-html-4.0.5.tgz#e8ec7e16485124460f3bff312016feb0a54d9659"
   dependencies:
     htmlparser2 "^3.8.2"
 
-eslint-plugin-import@^2.7.0:
+eslint-plugin-import@2.8.0:
   version "2.8.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.8.0.tgz#fa1b6ef31fcb3c501c09859c1b86f1fc5b986894"
   dependencies:
@@ -1967,7 +1967,7 @@ eslint-plugin-import@^2.7.0:
     minimatch "^3.0.3"
     read-pkg-up "^2.0.0"
 
-eslint-plugin-node@^5.1.1:
+eslint-plugin-node@5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-5.2.1.tgz#80df3253c4d7901045ec87fa660a284e32bdca29"
   dependencies:
@@ -1976,11 +1976,11 @@ eslint-plugin-node@^5.1.1:
     resolve "^1.3.3"
     semver "5.3.0"
 
-eslint-plugin-promise@^3.5.0:
+eslint-plugin-promise@3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-3.6.0.tgz#54b7658c8f454813dc2a870aff8152ec4969ba75"
 
-eslint-plugin-standard@^3.0.1:
+eslint-plugin-standard@3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz#34d0c915b45edc6f010393c7eef3823b08565cf2"
 
@@ -1995,7 +1995,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.3.0:
+eslint@4.10.0:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.10.0.tgz#f25d0d7955c81968c2309aa5c9a229e045176bb7"
   dependencies:
@@ -3425,7 +3425,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt@^1.0.0-rc11:
+nuxt@1.0.0-rc9:
   version "1.0.0-rc9"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.0.0-rc9.tgz#74bb73f85b1e92a8ad7d7108386fbecccbe7a3d4"
   dependencies:

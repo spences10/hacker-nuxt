@@ -15,20 +15,20 @@
   "dependencies": {
     "axios": "0.17.1",
     "date-fns": "1.29.0",
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "1.0.0-rc9",
     "tachyons": "4.10.0",
     "tachyons-debug": "1.1.10",
     "url": "0.11.0"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint": "^4.3.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^4.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "babel-eslint": "8.2.6",
+    "eslint": "4.10.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-html": "4.0.5",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
   }
 }
