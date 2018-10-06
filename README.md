@@ -4,7 +4,7 @@
 
 ## a simple Hackernews clone made with Nuxt
 
-Demo page here: https://hackernuxt.scottspence.me
+Demo page here: https://hnc.scottspence.me
 
 > Nuxt.js project
 
