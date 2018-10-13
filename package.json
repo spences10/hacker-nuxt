@@ -1,6 +1,6 @@
 {
   "name": "hackernuxt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nuxt.js project",
   "author": "spences10 <spences10apps@gmail.com>",
   "private": true,
@@ -15,7 +15,7 @@
   "dependencies": {
     "axios": "0.18.0",
     "date-fns": "1.29.0",
-    "nuxt": "2.1.0",
+    "nuxt": "2.2.0",
     "tachyons": "4.11.1",
     "tachyons-debug": "1.1.10",
     "url": "0.11.0"
