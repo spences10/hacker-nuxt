@@ -2,6 +2,8 @@
 
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4c440381-5185-4d26-a1bd-734c94138752/deploy-status)](https://app.netlify.com/sites/hacker-nuxt/deploys)
+
 ## a simple Hackernews clone made with Nuxt
 
 Demo page here: https://hnc.scottspence.me
