@@ -1,6 +1,6 @@
 {
   "name": "hackernuxt",
-  "version": "1.0.33",
+  "version": "1.0.36",
   "description": "Nuxt.js project",
   "author": "spences10 <spences10apps@gmail.com>",
   "private": true,
@@ -21,7 +21,7 @@
     "url": "0.11.0"
   },
   "devDependencies": {
-    "prettier": "1.17.1",
+    "prettier": "1.18.2",
     "pretty-quick": "1.11.0"
   }
 }
